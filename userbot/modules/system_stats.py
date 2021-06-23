@@ -325,12 +325,12 @@ async def amireallyalive(alive):
             await msg.delete()
         except BaseException:
             await alive.edit(
-                output + "\n\n *`https://telegra.ph/file/0c9ffc71ca57e03027af9.jpg."
+                output + "\n\n *`https://telegra.ph/file/0c9ffc71ca57e03027af9.jpg"
                 "\nPastikan Tautan Yang Anda Gunakan Valid`"
             )
             await asyncio.sleep(100)
             await alive.delete()
-    else:
+    else: 
         await alive.edit(output)
         await asyncio.sleep(100)
         await alive.delete()
