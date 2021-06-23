@@ -26,11 +26,11 @@ async def insta(event):
     if event.fwd_from:
         return
     if not event.reply_to_msg_id:
-        await event.edit("`Lord, Mohon Balas Ke Link Instagram`")
+        await event.edit("`Rizz, Mohon Balas Ke Link Instagram`")
         return
     reply_message = await event.get_reply_message()
     if not reply_message.text:
-        await event.edit("`Mohon Maaf Lord, Saya Membutuhkan Link Media Instagram Untuk Download`")
+        await event.edit("`Mohon Maaf Rizz, Saya Membutuhkan Link Media Instagram Untuk Download`")
         return
     chat = "@SaveAsBot"
     reply_message.sender
@@ -46,7 +46,7 @@ async def insta(event):
             await event.client.send_message(chat, reply_message)
             response = await response
         except YouBlockedUserError:
-            await event.edit("`Lord, Mohon Buka Blokir` @SaveAsbot `Lalu Coba Lagi`")
+            await event.edit("`Rizz, Mohon Buka Blokir` @SaveAsbot `Lalu Coba Lagi`")
             return
         if response.text.startswith("Forward"):
             await event.edit(
