@@ -302,8 +302,8 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`I'M ALIVE!`")
-    await alive.edit("⚡")
+    await alive.edit("`Rizz-USERBOT A LIVE`")
+    await alive.edit("🔥")
     output = (
         f"**♕ Rizz-USERBOT ♕** \n\n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
