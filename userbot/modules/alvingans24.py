@@ -7,39 +7,27 @@ from telethon import events
 import asyncio
 
 
-@register(outgoing=True, pattern="^.hua$")
+@register(outgoing=True, pattern="^.jamet$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("أ‿أ")
-        await e.edit("╥﹏╥")
-        await e.edit("(;﹏;)")
-        await e.edit("(ToT)")
-        await e.edit("(┳Д┳)")
-        await e.edit("(ಥ﹏ಥ)")
-        await e.edit("（；へ：）")
-        await e.edit("(T＿T)")
-        await e.edit("（πーπ）")
-        await e.edit("(Ｔ▽Ｔ)")
-        await e.edit("(⋟﹏⋞)")
-        await e.edit("（ｉДｉ）")
-        await e.edit("(´Д⊂ヽ")
-        await e.edit("(;Д;)")
-        await e.edit("（>﹏<）")
-        await e.edit("(TдT)")
-        await e.edit("(つ﹏⊂)")
-        await e.edit("༼☯﹏☯༽")
-        await e.edit("(ノ﹏ヽ)")
-        await e.edit("(ノAヽ)")
-        await e.edit("(╥_╥)")
-        await e.edit("(T⌓T)")
-        await e.edit("(༎ຶ⌑༎ຶ)")
-        await e.edit("(☍﹏⁰)｡")
-        await e.edit("(ಥ_ʖಥ)")
-        await e.edit("(つд⊂)")
-        await e.edit("(≖͞_≖̥)")
-        await e.edit("(இ﹏இ`｡)")
-        await e.edit("༼ಢ_ಢ༽")
-        await e.edit("༼ ༎ຶ ෴ ༎ຶ༽")
+        await e.edit("aku mau ngomong")
+        await e.edit("jujur sama kamu")
+        await e.edit("ini udah lama")
+        await e.edit("aku pendem")
+        await e.edit("di dalem hati")
+        await e.edit("aku mau ngomong")
+        await e.edit("sebenarnya")
+        await e.edit("kamu itu")
+        await e.edit("jamet ")
+        await e.edit("tingkat atas")
+        await e.edit("melebihi jamet-jamet")
+        await e.edit("lainnya yang")
+        await e.edit("ada di dunia")
+        await e.edit("udah itu aja")
+        await e.edit("maaf ya kak jamet")
+        await e.edit("🏃🏃🏃")
+        await e.edit("xixixi jamet 🤪")
+       
 
 
 @register(outgoing=True, pattern='^.huh(?: |$)(.*)')
@@ -184,7 +172,7 @@ CMD_HELP.update({
     \nPenjelasan: animasi.\
     \n\n`.waktu`\
     \nPenjelasan: animasi.\
-    \n\n`.hua`\
+    \n\n`.jamet`\
     \nPenjelasan: nangis.\
     \n\n`.ceritacinta` ; `.canda`\
     \nPenjelasan: liat sendiri"
