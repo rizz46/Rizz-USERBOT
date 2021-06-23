@@ -305,17 +305,17 @@ async def amireallyalive(alive):
     await alive.edit("`Rizz-USERBOT A LIVE`")
     await alive.edit("🔥")
     output = (
-        f"**♕ Rizz-USERBOT ♕** \n\n"
+        f"**⚡ Rizz-USERBOT ⚡** \n\n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `Lord     :`{DEFAULTUSER} \n"
-        f"┣|• `Username :`@{user.username} \n"
-        f"┣|• `Telethon :`Ver {version.__version__} \n"
-        f"┣|• `Python   :`Ver {python_version()} \n"
-        f"┣|• `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
-        f"┣|• `Bot Ver  :`{BOT_VER} \n"
-        f"┣|• `Modules  :`{len(modules)} Modules \n"
+        f"┣|• `majikan     :`{DEFAULTUSER} \n"
+        f"┣|• `pengguna    :`@{user.username} \n"
+        f"┣|• `Telethon    :`Ver {version.__version__} \n"
+        f"┣|• `Python      :`Ver {python_version()} \n"
+        f"┣|• `Branch      :`{UPSTREAM_REPO_BRANCH} \n"
+        f"┣|• `Bot Ver     :`{BOT_VER} \n"
+        f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[Repo](https://github.com/Rizz46/Rizz-USERBOT) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/kentabxb)")
+        f"[Repo](https://github.com/Rizz46/Rizz-USERBOT) | [Grup Support](t.me/MusicEveryTimee) | [Owner](t.me/kentabxb)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
