@@ -305,7 +305,7 @@ async def amireallyalive(alive):
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
     output = (
-        f"**♕ LORD USERBOT ♕** \n\n"
+        f"**♕ Rizz-USERBOT ♕** \n\n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
         f"┣|• `Lord     :`{DEFAULTUSER} \n"
         f"┣|• `Username :`@{user.username} \n"
