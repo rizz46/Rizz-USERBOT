@@ -32,7 +32,7 @@ DEF_UNAPPROVED_MSG = (
     f"__HALLO SELAMAT DATANG, SAYA ADALAH BOT YANG MENJAGA ROOM CHAT INI MOHON JANGAN MELAKUKAN SPAM KARNA SAYA OTOMATIS AKAN MEMBLOKIR ANDA, TUNGGU SAMPAI {DEFAULTUSER} MENERIMA PESAN ANDA__\n"
     "┏━━━━━━━━━━━━━━━━━━━\n"
     "┣[• `PESAN OTOMATIS`\n"
-    "┣[• `BY LORD USERBOT`\n"
+    "┣[• `BY Rizz-USERBOT`\n"
     "┗━━━━━━━━━━━━━━━━━━━")
 # =================================================================
 
@@ -92,7 +92,7 @@ async def permitpm(event):
             if COUNT_PM[event.chat_id] > 5:
                 await event.respond(
                     "`Anda Telah Di Blokir Karna Melakukan Spam Pesan`\n"
-                    "`Ke Room Chat Lord ツ`"
+                    "`Ke Room Chat Rizz ⚡`"
                 )
 
                 try:
@@ -231,9 +231,9 @@ async def approvepm(apprvpm):
     try:
         approve(uid)
     except IntegrityError:
-        return await apprvpm.edit("`Oke Pesan Anda Sudah Diterima ツ`")
+        return await apprvpm.edit("`Oke Pesan Anda Sudah Diterima 🤗`")
 
-    await apprvpm.edit(f"`Hai` [{name0}](tg://user?id={uid}) `Pesan Anda Sudah Diterima ツ`")
+    await apprvpm.edit(f"`Hai` [{name0}](tg://user?id={uid}) `Pesan Anda Sudah Diterima 🤗`")
     await apprvpm.delete(getmsg)
     await message.delete()
 
@@ -334,7 +334,7 @@ async def add_pmsg(cust_msg):
         await cust_msg.edit("`Running on Non-SQL mode!`")
         return
 
-    await cust_msg.edit("`Sedang Memproses...`")
+    await cust_msg.edit("`Sedang Memproses⚡⚡⚡`")
     conf = cust_msg.pattern_match.group(1)
 
     custom_message = sql.gvarstatus("unapproved_msg")
