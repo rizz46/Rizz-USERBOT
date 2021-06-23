@@ -12,7 +12,7 @@
 </p>  
 
 # Lord Userbot
-![Lord Userbot Logo](https://telegra.ph/file/0c9ffc71ca57e03027af9.jpg))
+![Lord Userbot Logo](https://telegra.ph/file/0c9ffc71ca57e03027af9.jpg)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
